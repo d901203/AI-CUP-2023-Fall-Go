@@ -1,0 +1,8 @@
+tqdm
+numpy
+sgfmill
+lion-pytorch
+ipykernel
+ipywidgets
+--find-links https://download.pytorch.org/whl/cu118/torch_stable.html
+torch==2.0.1
