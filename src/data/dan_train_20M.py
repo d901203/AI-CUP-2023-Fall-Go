@@ -10,7 +10,7 @@ from utils import Encoder
 NUM_CORES = 30  # 使用的執行緒數量
 BATCH_SIZE = 16384  # 每次處理的資料數量
 CSV_PATH = "./csv/dan_train.csv"  # 訓練集 CSV 路徑
-DATA_DIR = "./data/dan"  # 訓練檔案存放資料夾
+DATA_DIR = "./data/dan/20M"  # 訓練檔案存放資料夾
 
 chars = "abcdefghijklmnopqrs"
 char_to_num = {c: i for i, c in enumerate(chars)}
